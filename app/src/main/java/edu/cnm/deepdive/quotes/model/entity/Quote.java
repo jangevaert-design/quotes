@@ -55,4 +55,10 @@ public class Quote {
     this.text = text;
   }
 
+  @NonNull
+  @Override
+  public String toString() {
+    return text;
+
+  }
 }
